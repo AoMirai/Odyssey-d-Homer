@@ -1,11 +1,12 @@
 const { Router } = require('express');
 
 const router = Router();
-const connection = require('../conf');
 
 /* GET index page. */
-router.post('/', (req, res) => {
-  console.log('I am in POST signup');
+router.get('/', (req, res) => {
+  res.json({
+    title: 'Express'
+  });
 });
-// tets
+
 module.exports = router;
