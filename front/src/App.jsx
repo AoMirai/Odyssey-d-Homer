@@ -2,7 +2,7 @@ import React from 'react';
 
 import SignUp from './SignUp';
 
-import './App.css';
+import './App.scss';
 
 function App() {
   return (
